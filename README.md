@@ -39,11 +39,11 @@ WhisperChain is a blockchain-based platform for posting anonymous confessions, b
    yarn
    ```
 
-3. **Deploy Confession.sol**
+3. **Deploy WhisperChain.sol**
 
-```
-Deploy the smart contract(via Remix or Hardhat).
-```
+   ```
+   Deploy the smart contract(via Remix or Hardhat).
+   ```
 
 4. **Update .env.example**
 
