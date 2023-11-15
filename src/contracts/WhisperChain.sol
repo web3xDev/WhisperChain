@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-contract CryptoConfessions {
+contract WhisperChain {
     struct Confession {
+        uint256 id; // Added ID
         address payable author;
         string content;
         uint256 tipAmount;
@@ -25,7 +26,8 @@ contract CryptoConfessions {
 
     function postConfession(string memory _content) public {
         confessionCount++;
-        confessions[confessionCount] = Confession(payable(msg.sender), _content, 0);
+        // Include the ID in the struct
+        confessions[confessionCount] = Confession(confessionCount, payable(msg.sender), _content, 0);
         emit ConfessionCreated(confessionCount, payable(msg.sender), _content);
     }
 
@@ -45,6 +47,7 @@ contract CryptoConfessions {
     function getAllConfessions() public view returns (Confession[] memory) {
         Confession[] memory allConfessions = new Confession[](confessionCount);
         for (uint256 i = 0; i < confessionCount; i++) {
+            // Directly fetching confession with ID
             allConfessions[i] = confessions[i + 1];
         }
         return allConfessions;

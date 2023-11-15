@@ -1,5 +1,7 @@
 # Decentralized Confession Board - WhisperChain
 
+![Alt text](WhisperChainUI.png)
+
 ## Description
 
 WhisperChain is a blockchain-based platform for posting anonymous confessions, built with Solidity smart contracts and a React frontend. It ensures transparency and privacy, and includes a feature for users to tip their favorite confessions.
