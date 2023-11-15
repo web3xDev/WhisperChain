@@ -7,7 +7,7 @@ WhisperChain is a blockchain-based platform for posting anonymous confessions, b
 ## Features
 
 - **Anonymous Posting:** Users can post confessions without revealing their identity.
-- **Binance Smart Chain Integration:** Utilizes Binance Smart Chain blockchain for storing confessions.
+- **Binance Smart Chain Testnet Integration:** Utilizes Binance Smart Chain Testnet blockchain for storing confessions.
 - **React Frontend:** A user-friendly interface built with React.
 - **Smart Contract Functionality:** Powered by Solidity smart contracts.
 
@@ -16,7 +16,7 @@ WhisperChain is a blockchain-based platform for posting anonymous confessions, b
 - **Smart Contracts:** Solidity
 - **Frontend:** React, HTML, CSS
 - **Web3 Integration:** Wagmi, Web3Modal
-- **Blockchain:** Binance Smart Chain
+- **Blockchain:** Binance Smart Chain Testnet
 
 ## Prerequisites
 
