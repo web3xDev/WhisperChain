@@ -1,6 +1,6 @@
 # Decentralized Confession Board - WhisperChain
 
-![Alt text](WhisperChainUI.png)
+![Alt text](public/WhisperChainUI.png)
 
 ## Description
 
